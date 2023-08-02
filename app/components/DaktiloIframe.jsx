@@ -107,11 +107,12 @@ function Demo() {
         <>
             <Text>Biyografi</Text>
             <Carousel
+                pt={0}
+                top={0}
                 onMouseEnter={autoplay.current.stop}
                 onMouseLeave={autoplay.current.reset}
                 plugins={[autoplay.current]}
-                withIndicators
-                height={200}
+                height={100}
                 slideSize="25%"
                 slideGap="md"
                 loop
