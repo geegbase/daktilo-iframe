@@ -109,6 +109,7 @@ function Demo() {
             <Carousel
                 pt={0}
                 top={0}
+                mt={30}
                 onMouseEnter={autoplay.current.stop}
                 onMouseLeave={autoplay.current.reset}
                 plugins={[autoplay.current]}
