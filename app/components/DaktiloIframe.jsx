@@ -102,10 +102,10 @@ const useStyles = createStyles(() => ({
 
 function Demo() {
     const { classes } = useStyles();
-    const autoplay = useRef(Autoplay({ delay: 2000, }));
+    const autoplay = useRef(Autoplay({ delay: 1500, }));
     return (
         <>
-            <Text>Biyografi</Text>
+            <Text style={{ fontWeight: 'bold', fontSize: 22 }}>Biyografi</Text>
             <Carousel
                 pt={0}
                 top={0}
@@ -118,8 +118,8 @@ function Demo() {
                 loop
                 align="start"
                 breakpoints={[
-                    { maxWidth: 'md', slideSize: '50%' },
-                    { maxWidth: 'sm', slideSize: '50%', slideGap: 0 },
+                    { maxWidth: 'md', slideSize: '25%' },
+                    { maxWidth: 'xs', slideSize: '50%', slideGap: 0 },
                 ]}
             >
 
