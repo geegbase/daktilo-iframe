@@ -3,6 +3,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { useRef } from 'react';
 import { UserInfoIcons } from './BioCard';
 import { createStyles, getStylesRef, Text } from '@mantine/core';
+import { UserInfoAction } from './AuthorCard';
 
 const slideData = [
     {
@@ -94,7 +95,7 @@ const slideData = [
 const useStyles = createStyles(() => ({
     container: {
         display: 'flex',
-        alignItems: 'center',
+        //alignItems: 'center',
         justifyContent: 'center',
     },
 
@@ -113,13 +114,13 @@ function Demo() {
                 onMouseEnter={autoplay.current.stop}
                 onMouseLeave={autoplay.current.reset}
                 plugins={[autoplay.current]}
-                height={100}
+                height={220}
                 slideSize="25%"
-                slideGap="md"
+                slideGap={0}
                 loop
                 align="start"
                 breakpoints={[
-                    { maxWidth: 'md', slideSize: '25%' },
+                    { maxWidth: 'md', slideSize: '25%', slideGap: 0 },
                     { maxWidth: 'xs', slideSize: '50%', slideGap: 0 },
                 ]}
             >
@@ -127,7 +128,7 @@ function Demo() {
                 {slideData.map((slide, index) => {
                     const { title, avatar, alt, href } = slide;
                     return (
-                        <Carousel.Slide className={classes.container} key={index}><UserInfoIcons title={title} avatar={avatar} href={href} alt={alt} /></Carousel.Slide>
+                        <Carousel.Slide className={classes.container} key={index}><UserInfoAction title={title} avatar={avatar} href={href} alt={alt} /></Carousel.Slide>
                     );
                 })}
             </Carousel>
