@@ -13,10 +13,10 @@ const slideData = [
         alt: 'Fahrettin Altun kimdir?',
     },
     {
-        title: 'Hasan Şıldak',
-        href: 'https://bigadichalkinsesi.com/haber/15876204/balikesir-valisi-hasan-sildak',
-        avatar: '/img/2-hasan-sildak.png',
-        alt: 'Hasan Şıldak kimdir?',
+        title: 'İsmail Ustaoğlu',
+        href: 'https://bigadichalkinsesi.com/',
+        avatar: '/img/ismail-ustaoglu.png',
+        alt: 'İsmail Ustaoğlu kimdir?',
     },
     {
         title: 'Ali Taylan Öztaylan',
