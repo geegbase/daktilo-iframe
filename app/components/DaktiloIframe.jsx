@@ -67,7 +67,7 @@ const slideData = [
         alt: 'Hasan Avcı kimdir?',
     },
     {
-        title: 'Dinçer Orjan',
+        title: 'Dinçer Orkan',
         href: 'https://bigadichalkinsesi.com/haber/15874123/karesi-belediye-baskani-dincer-orkan',
         avatar: '/img/11-dincer-orjan.png',
         alt: 'Dinçer Orjan kimdir?',
