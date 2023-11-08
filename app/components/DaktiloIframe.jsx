@@ -14,7 +14,7 @@ const slideData = [
     },
     {
         title: 'İsmail Ustaoğlu',
-        href: 'https://bigadichalkinsesi.com/',
+        href: 'https://bigadichalkinsesi.com/haber/17401279/balikesir-valisi-ismail-ustaoglu',
         avatar: '/img/ismail-ustaoglu.png',
         alt: 'İsmail Ustaoğlu kimdir?',
     },
