@@ -9,7 +9,7 @@ const slideData = [
   {
     title: "Prof. Dr. Burhanettin Duran",
     href: "https://balikesirhalkinsesi.com/haber/15876326/turkiye-cumhuriyeti-iletisim-baskani-prof-dr-fahrettin-altun",
-    avatar: "/img/1-burhanettin-duran.png",
+    avatar: "/img/1-burhanettin-duran.jpeg",
     alt: "Burhanettin Duran kimdir?",
   },
   {
